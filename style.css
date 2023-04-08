@@ -285,6 +285,7 @@ marquee{
   margin-top: 10px;
 }
 
+
 @keyframes appear {
   0% {
     clip-path: circle(30% at -25% -25%);
