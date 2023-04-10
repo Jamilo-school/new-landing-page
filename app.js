@@ -52,7 +52,7 @@ function events() {
 events();
 ///////////////////////////////////////////////////////////////////////////////////
 
-  // Notification message on log in page created by javascript amd cs;javascript code  starts here//
+  // popupNotification message on log in page created by javascript amd cs;javascript code  starts here//
 
         // Create the pop up notification
         var popup = document.createElement("div");
