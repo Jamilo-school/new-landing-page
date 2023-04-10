@@ -59,14 +59,14 @@ events();
         popup.classList.add("popup");
         
         // Add the notification message to the pop up
-        var message = document.createTextNode("🧑‍⚕️Latest info:End term I Examinations will start next week Tuesday April 11, 2023.The timetable is curently out.Clossing day will be on Thursday April 20, 2023");
+        var message = document.createTextNode("🧑‍⚕️Latest info:End term I Examinations will start next week Tuesday April 11, 2023..Clossing day will be on Thursday April 20, 2023.For more infor check out on circular section");
         popup.appendChild(message);
         
         // Add the pop up to the page
         document.body.appendChild(popup);
         
         // Use CSS transitions to create a smooth fade in effect
-        popup.style.transition = "opacity 0.5s ease-in-out";
+        popup.style.transition = "opacity 3.5s ease-in-out";
         popup.style.opacity = 0;
         
         
