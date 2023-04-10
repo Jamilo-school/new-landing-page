@@ -160,7 +160,7 @@ header .container {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgb(249, 13, 13);
+  background-color: var(--darkTwo);
   border-radius: 3px;
   transition: 0.5s;
 }
@@ -399,7 +399,7 @@ div.links{
   color:  #065F46;
 }
 
-/* Notification messege starts here */
+/* popup Notification messege starts here */
 .popup {
 	position: fixed;
 	top: 30%;
