@@ -39,6 +39,7 @@ function toggleAnimation() {
     declare();
     events();
   });
+  
 }
 
 function events() {
@@ -49,3 +50,35 @@ function events() {
 }
 
 events();
+///////////////////////////////////////////////////////////////////////////////////
+
+  // Notification message on log in page created by javascript amd cs;javascript code  starts here//
+
+        // Create the pop up notification
+        var popup = document.createElement("div");
+        popup.classList.add("popup");
+        
+        // Add the notification message to the pop up
+        var message = document.createTextNode("🧑‍⚕️Latest info:End term I Examinations will start next week Tuesday April 11, 2023.The timetable is curently out.Clossing day will be on Thursday April 20, 2023");
+        popup.appendChild(message);
+        
+        // Add the pop up to the page
+        document.body.appendChild(popup);
+        
+        // Use CSS transitions to create a smooth fade in effect
+        popup.style.transition = "opacity 0.5s ease-in-out";
+        popup.style.opacity = 0;
+        
+        
+        // Show the pop up after a short delay
+        setTimeout(function() {
+          popup.style.opacity = 1;
+        }, 500);
+        
+        // Hide the pop up after a few seconds
+        setTimeout(function() {
+          popup.style.opacity = 0;
+        }, 19000);
+      
+        // Notification message creted by javascript amd cs;javascript code  ends here//
+        
