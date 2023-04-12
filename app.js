@@ -59,7 +59,7 @@ events();
         popup.classList.add("popup");
         
         // Add the notification message to the pop up
-        var message = document.createTextNode("🧑‍⚕️Latest info:End term I Examinations will start Tomorrow Tuesday April 11, 2023 and end on Friday 14th..Clossing day will be on Thursday April 20, 2023.For more infor check out on circular section");
+        var message = document.createTextNode("🧑‍⚕️Latest info: Day 2 of End Term I  Examination.Clossing day will be on Thursday April 20, 2023.For more infor check out on circular section");
         popup.appendChild(message);
         
         // Add the pop up to the page
